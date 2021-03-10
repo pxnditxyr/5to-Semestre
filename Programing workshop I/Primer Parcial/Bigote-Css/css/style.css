@@ -1,3 +1,16 @@
+.eyes
+{
+	width:  100px;
+	height: 100px;
+	left:   10px;
+	color:  black;
+	position: absolute;
+	border-radius: 50%;
+	animation: wink 5s infinite;
+	box-shadow: 280px 50px 0 0 currentColor,
+				420px 50px 0 0 currentColor;
+}
+
 .moustache
 {
 	width:  180px;
