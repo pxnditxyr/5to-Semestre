@@ -1,9 +1,25 @@
+body
+{
+	background-color: #000;
+}
+
+.my-title
+{
+	color: white;
+	font-family: 'Helvetica Neue', sans-serif;
+	font-size: 50px;
+	font-weight: bold;
+	letter-spacing: -1px;
+	line-height: 1;
+	margin-left: 220px;
+}
+
 .eyes
 {
 	width:  100px;
 	height: 100px;
 	left:   10px;
-	color:  black;
+	color:  white;
 	position: absolute;
 	border-radius: 50%;
 	animation: wink 5s infinite;
@@ -16,7 +32,7 @@
 	width:  180px;
 	height: 180px;
 	left:   100px;
-	color:  black;
+	color:  white;
 	position: absolute;
 	border-radius: 50%;
 	box-shadow: 150px 240px 0 0 currentColor,
